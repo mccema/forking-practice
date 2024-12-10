@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vangamoi Acres Farm</title>
+  <style>
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f9f1;
+      color: #333;
+    }
+    h1, h2 {
+      color: #2e7d32;
+    }
+    a {
+      color: #388e3c;
+      text-decoration: none;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #66bb6a;
+      color: white;
+      padding: 1em 0;
+      text-align: center;
+    }
+
+    /* Navigation styles */
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+      margin-top: 0.5em;
+    }
+    nav a {
+      font-weight: bold;
+    }
+
+    /* Main content styles */
+    main {
+      padding: 2em;
+    }
+    .content-section {
+      margin-bottom: 2em;
+    }
+    .content-section h2 {
+      border-bottom: 2px solid #66bb6a;
+      padding-bottom: 0.3em;
+      margin-bottom: 0.5em;
+    }
+
+    /* Image styles */
+    .content-section img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-top: 1em;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #388e3c;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Welcome to Vangamoi Acres Farm</h1>
+    <nav>
+      <a href="#about">About Us</a>
+      <a href="#products">Our Products</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div id="about" class="content-section">
+      <h2>About Green Acres</h2>
+      <p>Located in the heart of the countryside, Green Acres Farm is dedicated to sustainable farming practices. We produce fresh, organic crops and livestock, nurturing the soil and supporting our community.</p>
+      <img src="https://example.com/farm-image.jpg" alt="Lush green farm landscape with crops and trees">
+    </div>
+
+    <div id="products" class="content-section">
+      <h2>Our Products</h2>
+      <p>Our farm produces a wide variety of fresh fruits, vegetables, and dairy products. We are committed to quality and work hard to bring the best produce to your table.</p>
+      <ul>
+        <li>Fresh Vegetables: Tomatoes, Carrots, Lettuce</li>
+        <li>Fruits: Apples, Oranges, Bananas</li>
+        <li>Dairy Products: Milk, Cheese, Yogurt</li>
+      </ul>
+    </div>
+
+    <div id="contact" class="content-section">
+      <h2>Contact Us</h2>
+      <p>If you have any questions or would like to visit, please <a href="mailto:info@vangamoiacresfarm.com">email us</a> or call (+256) 705-123-4567. We look forward to welcoming you to Green Acres!</p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Vangamoi Acres Farm. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
